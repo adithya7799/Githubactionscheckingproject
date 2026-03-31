@@ -1,6 +1,6 @@
 name: FirstAction
 
-on: [pull]
+on: [pull,push]
 
 jobs:
   run-script:
@@ -15,10 +15,6 @@ jobs:
           python-version: '3.12'
       - name: run script
         run: python sample.py
-
-on: [push]
-
-jobs:
   pulljob:
     runs-on: ubuntu-latest
     steps:
