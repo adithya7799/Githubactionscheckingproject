@@ -1,5 +1,6 @@
-def greet():
-    return "Hello World"
+def add(x,y):
 
+    retun x+y
 
-greet()
+    
+
