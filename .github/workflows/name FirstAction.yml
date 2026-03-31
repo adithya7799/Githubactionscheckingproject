@@ -26,4 +26,4 @@ jobs:
         with:
           python-version: '3.12'
       - name: run tests
-        run: python test.py
+        run: pytest test.py
