@@ -1,6 +1,6 @@
 name: FirstAction
 
-on: [pull,push]
+on: [pull_request,push]
 
 jobs:
   run-script:
